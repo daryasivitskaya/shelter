@@ -11,12 +11,154 @@ body{
     max-width: 1200px;
     margin: 0 auto;
     text-align: center;
+    padding: 0 40px;
 }
 
 
-.footer {
-    background: url('../img/footer-gradient-background.png');
+/***HELP===========*/
+
+.header-help {
+    text-align: center;
+    justify-content: center;
+}
+.help-content {
+    padding: 80px 0 100px;
+}
+
+.help-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1040px;
     margin: 0 auto;
-    background-size: cover;
-
+    
 }
+
+.help-list {
+    display: flex;
+    column-gap: 114px;
+    row-gap: 59px;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.list-icon {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    align-items: center;
+}
+
+/** help list **/
+.help-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 55px 120px;
+    padding-top: 60px;
+}
+
+.help-list__icon {
+    width: 60px;
+    height: 60px;
+}
+
+.help-list__text {
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    color: var(--color-dark-l);
+    margin: 26px 0 0;
+}
+
+
+/**DONATION**/
+
+.donation {
+    background-color: #f6f6f6;
+}
+
+.donation-content {
+    padding: 80px 0 87px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+}
+
+.donation-image {
+    max-width: 505px;
+    padding-top: 10px;
+    padding-right: 30px;
+}
+
+.donation-dog {
+    max-width: 100%;
+}
+
+.donation-text {
+    max-width: 380px;
+    text-align: left;
+}
+
+.donation-text h4 {
+    font-family: "Georgia";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #545454;
+    margin: 0;
+}
+
+.donation-text h6 {
+    font-family: "Georgia";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+    margin: 20px 0;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.credit-card {
+    display: inline-flex;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-family: "Georgia";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #545454;
+    background-color: #f1cdb3;
+    margin: 0 0 9px;
+}
+
+.credit-card img {
+    padding-right: 15px;
+}
+
+.donationP {
+    font-family: "Arial";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #b2b2b2;
+}
+
+
+
+/*footer*/
+.footer {
+    background: url(../img/footer-gradient-background.png);
+    background-size: cover;
+    padding-top: 40px;
+}
+
